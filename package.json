@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "axios": "latest",
+    "chalk": "latest",
+    "discord.js": "13.4.0",
+    "mongoose": "^5.13.12",
+    "node-superfetch": "latest",
+    "npm": "latest",
+    "quickmongo": "^3.0.2",
+    "dotenv": "latest",
+    "moment": "latest",
+    "moment-duration-format": "latest"
+  }
+}
