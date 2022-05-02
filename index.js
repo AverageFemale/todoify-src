@@ -8,6 +8,7 @@ const client = new Discord.Client({intents: new Discord.Intents(32767), ws: { pr
 module.exports = client;
 client.config = require('./config.js')
 client.owner = '245650621745594379'
+client.guildCmdServer = 'Insert a guilds ID here please.'
 client.discord = Discord
 client.checkVote = async (interaction) => {
       return await axios.get(`https://top.gg/api/bots/${client.user.id}/check?userId=${interaction.member.user.id}`, {
