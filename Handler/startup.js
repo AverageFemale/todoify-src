@@ -108,7 +108,7 @@ readdirSync("./guildCommands/").forEach((dir) => {
           
 
 
-const tSG = await client.guilds.fetch(`905919731284967424`)
+const tSG = await client.guilds.fetch(client.guildCmdServer)
 const alreadyCommands2 = await tSG.commands.fetch()
       alreadyCommands2.each(async (a) => {
         data2.forEach(async (d) => {
