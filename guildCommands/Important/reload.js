@@ -54,7 +54,7 @@ readdirSync(`${process.cwd()}/guildCommands/`).forEach((dir) => {
     });
         
         
-  const tSG = await client.guilds.fetch('905919731284967424')
+  const tSG = await client.guilds.fetch(client.guildCmdServer)
     tSG.commands.set(data2).then((x) => {
       interaction.followUp(`Done reloading the slash commands including guild`)
       const jenArray = []
@@ -63,7 +63,7 @@ readdirSync(`${process.cwd()}/guildCommands/`).forEach((dir) => {
         {
           id: jk.id,
           permissions: [{
-              id: '907381785757904908',
+              id: 'Make a role that is only for people that can have access to /db /eval /exereload and /reload. If you don\t know what your doing than please head over to the todoify support server.',
               type: 'ROLE',
               permission: true,
           }],
